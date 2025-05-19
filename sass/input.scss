@@ -1,0 +1,15 @@
+@use 'reset'; 
+@use 'footer'; 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'josefin sans', sans-serif;
+    font-size: 1em;
+    background-color: hsl(0, 80%, 86%);
+}
