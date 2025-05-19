@@ -73,6 +73,8 @@ input {
 input[type=email] {
   border: solid 1px hsla(0, 36%, 70%, 0.5);
   border-radius: 16px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   padding: 10px 20px;
   background-color: hsl(0, 100%, 98%);
 }
@@ -89,6 +91,12 @@ input[type=email]::placeholder {
   font-size: 0.7em;
   opacity: 50%;
   font-weight: 600;
+}
+
+.submit {
+  background-image: url(/images/icon-arrow.svg);
+  border-radius: 16px;
+  border: none;
 }
 
 footer {

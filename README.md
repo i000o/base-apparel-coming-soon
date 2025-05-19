@@ -16,7 +16,11 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ## Overview
 
+This challenge involves some client-side validation using a formatting and empty field check. I'm well-versed in these now. There is also a Flex layout I'll need to pay attention to.
+
 ## Goal
+
+My goal here to focus on making the layout responsive well.
 
 ## Outcome
 
@@ -60,4 +64,5 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 ## Useful resources
 
 []()
+
 # base-apparel-coming-soon
