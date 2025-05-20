@@ -42,6 +42,17 @@ body {
 
 form { 
     margin: 30px 0;
+    width: 100%; 
+}
+
+.container { 
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    bottom: 10px; 
+    right: 20px; 
 }
 
 input { 
@@ -55,6 +66,8 @@ input[type="email"] {
     border-bottom-right-radius: 0;
     padding: 10px 20px; 
     background-color: hsl(0, 100%, 98%);
+    width: 70%; 
+    // align-self: stretch;
 }
 
 input[type="email"]::placeholder { 
@@ -65,11 +78,13 @@ input[type="email"]::placeholder {
 }
 
 .submit { 
-    background-image: url(/images/icon-arrow.svg) ;
-    // width: 38px; 
-    // height: 38px; 
-    border-radius: 16px; 
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    min-width: 60px;
+    min-height: 40px;
+    border-radius: 20px; 
     border: none;
+    position: relative; 
+    right: -30px; 
 }
 
 footer { 
