@@ -66,7 +66,6 @@ input[type="email"] {
     padding: 10px 20px; 
     background-color: hsl(0, 100%, 98%);
     width: 80%; 
-    // align-self: stretch;
 }
 
 input[type="email"]::placeholder { 
@@ -85,6 +84,22 @@ input[type="email"]::placeholder {
     position: relative; 
     right: 40px; 
 }
+
+.error { 
+    display: none; 
+    color: hsl(0, 93%, 68%); 
+    font-family: inherit; 
+    font-size: 0.8em; 
+    // position this properly 
+}
+
+.error.visible { 
+    display: inline-block;
+}
+
+    // border: solid 2px hsl(0, 93%, 68%); put this on input on error state 
+    // & the red icon 
+
 
 footer { 
     margin: 20px; 

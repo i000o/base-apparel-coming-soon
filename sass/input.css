@@ -114,6 +114,17 @@ input[type=email]::placeholder {
   right: 40px;
 }
 
+.error {
+  display: none;
+  color: hsl(0, 93%, 68%);
+  font-family: inherit;
+  font-size: 0.8em;
+}
+
+.error.visible {
+  display: inline-block;
+}
+
 footer {
   margin: 20px;
   color: hsl(0, 36%, 70%);
