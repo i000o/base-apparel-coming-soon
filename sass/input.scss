@@ -11,6 +11,7 @@ body {
     font-family: 'josefin sans', sans-serif;
     background-color: hsl(0, 100%, 98%);
     margin: 20px; 
+    // height: 100svh; 
 }
 
 .logo { 
@@ -43,12 +44,14 @@ body {
 form { 
     margin: 30px 0;
     min-width: 100%; 
+    // padding-bottom: 40px; 
 }
 
 .container { 
     display: flex; 
     flex-direction: row;
     justify-content: center;
+    flex-wrap: nowrap;
     align-items: center;
     position: relative; 
     left: 20px; 
@@ -66,6 +69,7 @@ input[type="email"] {
     padding: 10px 20px; 
     background-color: hsl(0, 100%, 98%);
     width: 80%; 
+    cursor: text;
 }
 
 input[type="email"]::placeholder { 
@@ -75,6 +79,11 @@ input[type="email"]::placeholder {
     font-weight: 600;
 }
 
+// input[type="email"]:invalid { // this doesn't work properly bc one of your invalidity checks is empty 
+//     border: solid 2px hsl(0, 93%, 68%);
+//     // background-image: url(/images/icon-error.svg);
+// }
+
 .submit { 
     background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     min-width: 60px;
@@ -83,21 +92,22 @@ input[type="email"]::placeholder {
     border: none;
     position: relative; 
     right: 40px; 
+    cursor: pointer;
 }
 
 .error { 
-    display: none; 
+    display: none;
     color: hsl(0, 93%, 68%); 
     font-family: inherit; 
-    font-size: 0.8em; 
-    // position this properly 
+    font-size: 0.7em; 
+    margin: 10px; 
+    left: 0; 
 }
 
 .error.visible { 
     display: inline-block;
 }
 
-    // border: solid 2px hsl(0, 93%, 68%); put this on input on error state 
     // & the red icon 
 
 

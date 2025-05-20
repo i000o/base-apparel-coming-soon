@@ -71,6 +71,7 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: nowrap;
   align-items: center;
   position: relative;
   left: 20px;
@@ -88,6 +89,7 @@ input[type=email] {
   padding: 10px 20px;
   background-color: hsl(0, 100%, 98%);
   width: 80%;
+  cursor: text;
 }
 
 input[type=email]::placeholder {
@@ -105,13 +107,16 @@ input[type=email]::placeholder {
   border: none;
   position: relative;
   right: 40px;
+  cursor: pointer;
 }
 
 .error {
   display: none;
   color: hsl(0, 93%, 68%);
   font-family: inherit;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  margin: 10px;
+  left: 0;
 }
 
 .error.visible {

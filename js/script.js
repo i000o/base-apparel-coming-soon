@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let form = document.querySelector(".form"); 
     let email = document.querySelector(".email");
-    let submit = document.querySelector("button[type='submit']"); 
+    // let submit = document.querySelector("button[type='submit']"); do I need this? 
     let error = document.querySelector(".error"); 
 
     email.addEventListener("input", () => { 
