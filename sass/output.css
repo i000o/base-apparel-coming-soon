@@ -64,7 +64,7 @@ body {
 
 form {
   margin: 30px 0;
-  width: 100%;
+  min-width: 100%;
 }
 
 .container {
@@ -73,8 +73,7 @@ form {
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 10px;
-  right: 20px;
+  left: 20px;
 }
 
 input {
@@ -88,7 +87,7 @@ input[type=email] {
   border-bottom-right-radius: 0;
   padding: 10px 20px;
   background-color: hsl(0, 100%, 98%);
-  width: 70%;
+  width: 80%;
 }
 
 input[type=email]::placeholder {
@@ -105,11 +104,12 @@ input[type=email]::placeholder {
   border-radius: 20px;
   border: none;
   position: relative;
-  right: -30px;
+  right: 40px;
 }
 
 footer {
   margin: 20px;
+  color: hsl(0, 36%, 70%);
 }
 
 /*# sourceMappingURL=output.css.map */
