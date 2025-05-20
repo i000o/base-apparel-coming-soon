@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <script rel="script" href="js/script.js"></script>
+  <script rel="script" src="js/script.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="sass/output.css"> 
   <title>Frontend Mentor | Base Apparel coming soon page</title>
@@ -20,13 +20,13 @@
   </h2>
   <form novalidate class="form">
     <div class="container"> 
-     <input type="email" id="email" class="email" placeholder="Email Address">
+     <input type="email" id="email" class="email" placeholder="Email Address" required>
      <label for="email"></label> 
      <button type="submit" class="submit">
       <img class="arrow-icon" src="images/icon-arrow.svg">
      </button>
-     <span class="error" aria-live="polite" role="alert"></span>
     </div>
+    <span class="error" aria-live="polite" role="alert"></span>
   </form>
 
   <footer>
