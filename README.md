@@ -50,7 +50,7 @@ My goal here to focus on making the layout responsive well.
 
 ## Lessons
 
-1.
+1. `classList` in Javascript as a built-in object which checks for a list of classes declared in the HTML for that element.
 2.
 3.
 4.
