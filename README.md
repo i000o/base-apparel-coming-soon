@@ -51,7 +51,7 @@ My goal here to focus on making the layout responsive well.
 ## Lessons
 
 1. `classList` in Javascript as a built-in object which checks for a list of classes declared in the HTML for that element.
-2.
+2. `span .error` vs. `span.error`: The first targets a _descendant_ of span, while the second targets `<span>` with the class of `error`.
 3.
 4.
 
