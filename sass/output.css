@@ -65,6 +65,7 @@ body {
 form {
   margin: 30px 0;
   min-width: 100%;
+  text-align: left;
 }
 
 .container {
@@ -117,16 +118,16 @@ input.error {
   cursor: pointer;
 }
 
-span .error {
+span.error {
   display: none;
   color: hsl(0, 93%, 68%);
   font-family: inherit;
   font-size: 0.7em;
   margin: 10px;
-  left: 0;
+  margin-left: 30px;
 }
 
-.error.visible {
+span.error.visible {
   display: inline-block;
 }
 
