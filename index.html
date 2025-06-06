@@ -10,7 +10,18 @@
 </head>
 <body>
   <img src="images/logo.svg" class="logo"> 
-  <img src="images/hero-mobile.jpg" class="hero">
+  <!-- <img src="images/hero-mobile.jpg" class="hero"> -->
+  <picture> 
+    <source 
+    srcset="images/hero-mobile.jpg"
+    media="(max-width: 375px)"> 
+
+    <source 
+    srcset="images/hero-desktop.jpg"
+    media="(max-width: 610px)">
+
+    <img src="images/hero-mobile.jpg" alt="hero-image" class="hero">
+  </picture>
   <h1 class="title">
     We're <strong>coming soon</strong>
   </h1>
