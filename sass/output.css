@@ -122,6 +122,10 @@ input.error {
   cursor: pointer;
 }
 
+.submit:active {
+  opacity: 70%;
+}
+
 span.error {
   display: none;
   color: hsl(0, 93%, 68%);
