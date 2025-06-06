@@ -91,9 +91,12 @@ input[type="email"]::placeholder {
 //     background-image: url(/images/icon-error.svg);
 // }
 
-input.error { 
+input.error {
     border: solid 2px hsl(0, 93%, 68%);
-    // background-image: url(/images/icon-error.svg);
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-size: 8%; 
+    background-position: 200px;
 }
 
 .submit { 
