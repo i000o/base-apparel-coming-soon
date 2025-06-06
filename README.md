@@ -52,8 +52,8 @@ My goal here to focus on making the layout responsive well.
 
 1. `classList` in Javascript as a built-in object which checks for a list of classes declared in the HTML for that element.
 2. Descendant Combinators vs. Compound Selector - `span .error` vs. `span.error`: The first targets a _descendant_ of span, while the second targets `<span>` with the class of `error`.
-3.
-4.
+3. Used the `<picture>` element again after a long time to swap out a mobile hero image for a desktop one in media queries. Good to try this again - very useful.
+4. The importance of the order of the `<source>` list. Browser will check the rules from the top down.
 
 ## Development
 
