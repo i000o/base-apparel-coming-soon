@@ -156,34 +156,32 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    height: 100svh;
+    margin-top: 0;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   section {
     order: -1;
-    margin: 150px 100px;
-    width: 60%;
-    height: 100svh;
+    margin-right: 20px;
   }
   .logo {
-    position: absolute;
-    top: 20px;
-    left: 80px;
-    width: 15%;
+    width: 20%;
   }
   .title {
-    margin: 0 0 20px -10px;
     font-weight: 300;
+    margin: 40px 20px 0 30px;
+    font-size: 2.2em;
   }
   .subheading {
-    margin: 0 0 20px -10px;
+    margin: 40px 70px 0 30px;
     font-size: 0.7em;
     line-height: 160%;
   }
-  .hero {
-    width: 100%;
-  }
   footer {
     position: fixed;
-    bottom: 100px;
+    bottom: 350px;
   }
 }
 
