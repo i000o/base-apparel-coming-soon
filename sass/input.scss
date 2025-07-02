@@ -64,9 +64,6 @@ input {
     all: unset; 
 }
 
-// input:focus { 
-// }
-
 input[type="email"] { 
     border: solid 1px hsl(0, 36%, 70%, 50%);
     border-radius: 16px;
@@ -91,8 +88,8 @@ input.error {
     border: solid 2px hsl(0, 93%, 68%);
     background-image: url(../images/icon-error.svg);
     background-repeat: no-repeat;
-    background-size: 8%; 
-    background-position: 200px;
+    background-size: 5%; 
+    background-position: right 50px center;
 }
 
 .submit { 
@@ -173,5 +170,61 @@ footer {
     footer { 
         position: fixed; 
         bottom: 350px; 
+        display: none; 
+
+    }
+}
+
+@media screen and (min-width: 1024px) { 
+
+    .logo { 
+        margin-top: 50px; 
+        margin-left: 50px; 
+    }
+
+    section { 
+        min-width: 300px; 
+    }
+
+    .title { 
+        margin-left: 50px; 
+        margin-top: 70px; 
+        width: 200px; 
+        font-size: 3em;
+    }
+
+    .subheading { 
+        margin: 40px 70px 0 50px; 
+        font-size: 0.9em;
+        width: 400px; 
+    }
+
+    form { 
+        margin-left: 20px; 
+        margin-top: 30px; 
+    }
+
+
+    footer { 
+        bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 1150px) { 
+
+    body { 
+        justify-content: space-between;
+    }
+
+    .desktop-section { 
+        margin-left: 50px; 
+    }
+
+}
+
+@media screen and (min-width: 1440px) { 
+
+    title { 
+        margin-top: 80px; 
     }
 }
