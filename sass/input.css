@@ -173,6 +173,9 @@ footer {
     order: -1;
     margin-right: 20px;
   }
+  .desktop-section {
+    display: block;
+  }
   .logo {
     width: 20%;
   }

@@ -18,7 +18,7 @@ body {
 .logo { 
     margin: 30px 200px 30px 30px; 
     width: 35%; 
-    order: -1; 
+    order: -1;
 }
 
 .title {
@@ -147,6 +147,10 @@ footer {
     section { 
         order: -1; 
         margin-right: 20px; 
+    }
+
+    .desktop-section { 
+        display: block; 
     }
 
     .logo { 
