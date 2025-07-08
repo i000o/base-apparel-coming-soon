@@ -54,6 +54,7 @@ My goal here to focus on making the layout responsive well.
 2. Descendant Combinators vs. Compound Selector - `span .error` vs. `span.error`: The first targets a _descendant_ of span, while the second targets `<span>` with the class of `error`.
 3. Used the `<picture>` element again after a long time to swap out a mobile hero image for a desktop one in media queries. Good to try this again - very useful.
 4. The importance of the order of the `<source>` list. Browser will check the rules from the top down.
+5. `display: contents;` excludes the element from the inheritance stack, so that its children become children of its parent instead.
 
 ## Development
 
