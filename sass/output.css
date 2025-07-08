@@ -217,7 +217,7 @@ footer {
 }
 @media screen and (min-width: 1150px) {
   body {
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .desktop-section {
     margin-left: 50px;
